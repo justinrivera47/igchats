@@ -1,0 +1,7 @@
+version: 3
+endpoint: https://snp-production.hasura.app
+admin_secret: XhfOMmFbU352lsMmwXhxZ8MYypbpYoCpQnrcSv2MJvQWWO0oqlkx076zj6VoRo2Q
+metadata_directory: metadata
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:5173
